@@ -1,5 +1,5 @@
 {
-  "name": "juice-shop",
+  "name": "juice-shop through jenkins pipeline",
   "version": "15.0.0",
   "private": true,
   "description": "Probably the most modern and sophisticated insecure web application",
