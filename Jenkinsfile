@@ -17,7 +17,8 @@ stage('build'){
     stage('Snyk')
   {
  steps {
-     snykSecurity snykInstallation: 'snyk', snykTokenId: 'snykid'
+ 
+  snykSecurity( snykInstallation: 'snyk', snykTokenId: 'snykid' )
      }
   }
 }
